@@ -1,0 +1,55 @@
+Received: by 2002:a05:6214:1c8a:b0:6f2:1c1:7d10 with SMTP id nb10csp412233qvb;
+ Wed, 21 Oct 2026 09:14:07 -0700 (PDT)
+Received: from out-21.smtp.github.com (out-21.smtp.github.com.
+ [192.30.252.204]) by mx.google.com with ESMTPS id
+ d75a77b69052e-4a9b1c2e5f1si1029381cf.412.2026.10.21.09.14.07 for
+ <faiz@example.com>; Wed, 21 Oct 2026 09:14:07 -0700 (PDT)
+Authentication-Results: mx.google.com; dkim=pass header.i=@github.com
+ header.s=pf2023 header.b=Kx8vQ2mN; spf=pass (google.com: domain of
+ noreply@github.com designates 192.30.252.204 as permitted sender)
+ smtp.mailfrom=noreply@github.com; dmarc=pass (p=REJECT sp=REJECT dis=NONE)
+ header.from=github.com
+Return-Path: <noreply@github.com>
+From: GitHub <noreply@github.com>
+To: faiz@example.com
+Subject: [GitHub] A new SSH key was added to your account
+Date: Wed, 21 Oct 2026 09:14:06 -0700
+Message-ID: <6716a1be9c3e1_2b5d8c1f4@github.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============0601291977523016511=="
+
+--===============0601291977523016511==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hey faiz!
+
+The following SSH key was added to your account:
+
+  laptop-2026
+  SHA256:Q1nYb3m4dUQx0q9h7vS0b2G8kC1ZtEw5yR6uJp3LkXo
+
+If you believe this key was added in error, you can remove it at
+https://github.com/settings/keys
+
+Thanks,
+The GitHub Team
+
+--===============0601291977523016511==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body>
+<p>Hey faiz!</p>
+<p>The following SSH key was added to your account:</p>
+<pre>laptop-2026
+SHA256:Q1nYb3m4dUQx0q9h7vS0b2G8kC1ZtEw5yR6uJp3LkXo</pre>
+<p>If you believe this key was added in error, you can remove it at
+<a href=3D"https://github.com/settings/keys">https://github.com/settings/keys=
+</a></p>
+<p>Thanks,<br>The GitHub Team</p>
+</body></html>
+
+--===============0601291977523016511==--

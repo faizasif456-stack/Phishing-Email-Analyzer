@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phishscope"
+version = "1.0.0"
+description = "Phishing email triage: header authentication, URL and attachment analysis, VirusTotal reputation and risk scoring"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Muhammad Faiz Ur Rehman" }]
+license = { text = "MIT" }
+dependencies = [
+    "click>=8.1",
+    "requests>=2.31",
+    "dnspython>=2.4",
+    "dkimpy>=1.1",
+    "rich>=13",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+phishscope = "phishscope.cli:cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

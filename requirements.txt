@@ -1,0 +1,5 @@
+click>=8.1
+requests>=2.31
+dnspython>=2.4
+dkimpy>=1.1
+rich>=13
